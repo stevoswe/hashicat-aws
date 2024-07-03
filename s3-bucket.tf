@@ -4,7 +4,7 @@ module "s3_bucket" {
 
   bucket = "Gaurav"
   acl    = "private"
-  bucket_prefix = var.prefix
+  bucket_prefix = "steven-beazley"
 
   versioning = {
     enabled = true
